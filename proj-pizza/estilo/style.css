@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body {
+    background-image: url('../img/pizzaa.png');
+
+}
+
+div.pizzas {
+    width: 600px;
+    position: relative;
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 50px;
+    padding: 12px;
+    background-color: white;
+}
+
+.icone {
+    width: 20px;
+    background-color: red;
+    color: rgb(255, 166, 0);
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+h3 {
+    margin: 15px 0px;
+}
+
+a {
+    width: 180px;
+    background-color: red;
+    color: orange;
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    bottom: -18px;
+    right: 5px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}

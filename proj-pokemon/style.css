@@ -1,0 +1,103 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header > p, footer {
+    text-align: center;
+    color: white;
+    background-color: darkorange;
+    font-size: 24px;
+    padding: 15px 0px;
+
+}
+
+header > img {
+    width: 100%;
+}
+
+main {
+    width: 1100px;
+    margin: auto;
+}
+
+article {
+    width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+p {
+    text-align: justify;
+}
+
+.cards-sombra {
+    width: 1100px;
+    display: flex;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin: 20px auto; 
+}
+
+.bulbasaur, .charmander, .pikachu {
+    width: 400px;
+    height: 400px;
+    background-color: #ffb500;
+    box-shadow: inset 0 0 15px 12px rgba(0, 0, 0, 0.705); 
+    border-radius: 5px;
+    margin: 0 30px 0 0;
+}
+
+.bulbasaur > img {
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin: auto;
+}
+
+.charmander > img {
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin: auto;
+}
+
+.pikachu > img {
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin: auto;
+}
+
+ul > li {
+    color: white;
+    line-height: 30px;
+    padding-left: 25px;
+    list-style-type: disc;
+    list-style-position: inside;   
+}
+
+p, .saiba-mais{
+
+    margin: 20px 0px; 
+}
+
+.fotos {
+    width: 1070px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.fotos img {
+    width: 270px;
+    
+}
