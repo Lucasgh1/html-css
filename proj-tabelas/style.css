@@ -1,0 +1,24 @@
+
+div {
+    position: relative;
+    border: 5px solid black;
+    margin-top: 50px;
+    width: 600px;
+    
+}
+
+span {
+   text-align: center;
+   width: 70px;
+   background-color: white;
+   font-size: 1.3em;
+   font-weight: bold;
+   position: absolute;
+   top: -15px;
+   left: 40px;
+
+}
+
+p {
+    padding: 15px;
+}

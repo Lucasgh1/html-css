@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela nomes</title>
+</head>
+
+<style>
+    
+    table {
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        border-collapse: collapse;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    caption {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 8px;
+    }
+</style>
+
+<body>
+    <table>
+        <caption>Filmes Favaritos</caption>
+    <thead>
+        <tr>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <th rowspan="3" scope="rowgroup">Mulheres</th>
+            <td>Ana maria santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+        </tr>
+        <tr>
+            <td>Beatriz souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+        </tr>
+        <tr>
+            <td>Cláudia melo</td>
+            <td>Oblívion</td>
+            <td>Matrix</td>
+            <td>Big hero</td>
+        </tr>
+
+        <tr>
+            <th rowspan="3" scope="rowgroup">Homens</th>
+            <td>Bruno mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
+        </tr>
+        <tr>
+            <td>Daniel lourenço</td>
+            <td>Wall-e</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+        </tr>
+        <tr>
+            <td>Fabiano mota</td>
+            <td>Star wars 5</td>
+            <td>Taxi driver</td>
+            <td>Toy store</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>

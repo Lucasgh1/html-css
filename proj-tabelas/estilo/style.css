@@ -1,0 +1,37 @@
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+
+}
+
+caption {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 7px 0px;
+    background-color: rgba(128, 128, 128, 0.205);
+}
+thead, tfoot {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(128, 128, 128);
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+td.num {
+    text-align: right;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: rgba(128, 128, 128, 0.514);
+}
