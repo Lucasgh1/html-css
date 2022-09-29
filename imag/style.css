@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    max-width: 1350px;
+    min-width: 350px;
+}
+
+.topico, footer{
+    text-align: center;
+    color: white;
+    background-color: rgba(6, 59, 6, 0.76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+h1 {
+    margin-left: 33px;
+    padding: 15px 0px;
+}
+
+.foto-topo > img {
+    width:  95%;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.paragrafo > p {
+    text-align: justify;
+    margin-left: 33px;
+    
+}
+
+.paragrafo {
+    width: 1300px;
+    height: 200px;
+    overflow: auto;
+}
+
+.galeria h2 {
+    font-size: 26px;
+    margin-left: 35px;
+    margin: 20px 0px 20px 35px;
+}
+
+.galeria > img {
+    width: 250px;
+}
+
+footer {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 1358px;
+    margin-bottom: 20px;
+}
+
+.links {
+    background-color: #23b4eb;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+nav > a {
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline;
+}
+
+.imagem-topo img {
+    width: 100%;
+}
+
+.cabeçalho {
+    width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    margin: 20px 0px;
+}
+
+.conteudo {
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px; 
+}
+
+.conteudo > img{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.final {
+    width: 1000px;
+    margin: auto;
+ 
+}
+
+h4 {
+    margin: 20px 0;
+}
+
+.final > p {
+    margin-bottom: 20px;
+}
+
+.final > a{
+    color: white;
+    background-color: #23b4eb;
+    padding: 5px;
+    border-radius: 5px;
+}
